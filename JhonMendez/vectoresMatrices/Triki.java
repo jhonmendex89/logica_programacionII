@@ -1,4 +1,4 @@
-package JhonMendez;
+package JhonMendez.VectoresMatrices;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class Triki {
         int fila = Integer.parseInt(jugada[0]);
         int columna = Integer.parseInt(jugada[1]);
         tablero[fila][columna] = "X";
-        imprimirTablero();
+        //imprimirTablero();
     }
     
     public static void asignarTablero(String [][] tablero){
@@ -59,6 +59,7 @@ public class Triki {
     public void menu(){
         System.out.println("menu");
     }
+
     public static void main(String[] args) {
         System.out.println("---BIENVENIDO AL JUEGO DE TRIKI---");
         tablero = new String[3][3];
